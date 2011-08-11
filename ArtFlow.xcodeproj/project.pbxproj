@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		810CECDE13F2692D00559719 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 810CECD413F2692D00559719 /* 0.png */; };
+		810CECDF13F2692D00559719 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 810CECD513F2692D00559719 /* 1.png */; };
+		810CECE013F2692D00559719 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 810CECD613F2692D00559719 /* 2.png */; };
+		810CECE113F2692D00559719 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 810CECD713F2692D00559719 /* 3.png */; };
+		810CECE213F2692D00559719 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 810CECD813F2692D00559719 /* 4.png */; };
+		810CECE313F2692D00559719 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 810CECD913F2692D00559719 /* 5.png */; };
+		810CECE413F2692D00559719 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 810CECDA13F2692D00559719 /* 6.png */; };
+		810CECE513F2692D00559719 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 810CECDB13F2692D00559719 /* 7.png */; };
+		810CECE613F2692D00559719 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 810CECDC13F2692D00559719 /* 8.png */; };
+		810CECE713F2692D00559719 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 810CECDD13F2692D00559719 /* 9.png */; };
+		8112D86F13F29C5300F330F3 /* Paintings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8112D86E13F29C5300F330F3 /* Paintings.plist */; };
+		8131D5EC13EFA115003024B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8131D5EB13EFA115003024B8 /* main.m */; };
+		8131D60413EFA1BD003024B8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8131D60313EFA1BD003024B8 /* QuartzCore.framework */; };
+		818716CF13EFB44A006579FA /* ArtFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818716CE13EFB44A006579FA /* ArtFlowViewController.m */; };
+		818717B113EFD5E0006579FA /* Painting.m in Sources */ = {isa = PBXBuildFile; fileRef = 818717B013EFD5E0006579FA /* Painting.m */; };
+		818A6E0713F0411800F6100C /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 818A6E0213F0411800F6100C /* UIImage+Alpha.m */; };
+		818A6E0813F0411800F6100C /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 818A6E0413F0411800F6100C /* UIImage+Resize.m */; };
+		818A6E0913F0411800F6100C /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 818A6E0613F0411800F6100C /* UIImage+RoundedCorner.m */; };
+		81A82E9613F0F58900F2C48F /* TapkuLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81A82E9513F0F58900F2C48F /* TapkuLibrary.bundle */; };
+		81A82EE413F0F61C00F2C48F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A82EE313F0F61C00F2C48F /* MapKit.framework */; };
+		81B1D1C413F2F9810034AF4A /* Icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B1D1C013F2F9810034AF4A /* Icon_114.png */; };
+		81B1D1C613F2F9810034AF4A /* Icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B1D1C213F2F9810034AF4A /* Icon_57.png */; };
+		81C67A2A13F10E3500A012A9 /* libTapkuLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C679E113F10CE100A012A9 /* libTapkuLibrary.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81C679E013F10CE100A012A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81A82E7A13F0F4A300F2C48F /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = TapkuLibrary;
+		};
+		81C679E213F10CE100A012A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81A82E7A13F0F4A300F2C48F /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B45DDF1134C736600D24C1A;
+			remoteInfo = LogicTests;
+		};
+		81C67A1C13F10D7F00A012A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81A82E7A13F0F4A300F2C48F /* TapkuLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = TapkuLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* ArtFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		810CECD413F2692D00559719 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		810CECD513F2692D00559719 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		810CECD613F2692D00559719 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		810CECD713F2692D00559719 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		810CECD813F2692D00559719 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		810CECD913F2692D00559719 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		810CECDA13F2692D00559719 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		810CECDB13F2692D00559719 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		810CECDC13F2692D00559719 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		810CECDD13F2692D00559719 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		8112D86E13F29C5300F330F3 /* Paintings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Paintings.plist; sourceTree = "<group>"; };
+		8131D5EA13EFA115003024B8 /* ArtFlow_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtFlow_Prefix.pch; sourceTree = "<group>"; };
+		8131D5EB13EFA115003024B8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8131D60313EFA1BD003024B8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8131D60B13EFA255003024B8 /* ArtFlow-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "ArtFlow-Info.plist"; sourceTree = "<group>"; };
+		818716CD13EFB44A006579FA /* ArtFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtFlowViewController.h; sourceTree = "<group>"; };
+		818716CE13EFB44A006579FA /* ArtFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtFlowViewController.m; sourceTree = "<group>"; };
+		818717AF13EFD5E0006579FA /* Painting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Painting.h; sourceTree = "<group>"; };
+		818717B013EFD5E0006579FA /* Painting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Painting.m; sourceTree = "<group>"; };
+		818A6E0113F0411800F6100C /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		818A6E0213F0411800F6100C /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		818A6E0313F0411800F6100C /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		818A6E0413F0411800F6100C /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		818A6E0513F0411800F6100C /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		818A6E0613F0411800F6100C /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		81A82E7A13F0F4A300F2C48F /* TapkuLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TapkuLibrary.xcodeproj; path = Library/Tapku/TapkuLibrary.xcodeproj; sourceTree = SOURCE_ROOT; };
+		81A82E9513F0F58900F2C48F /* TapkuLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TapkuLibrary.bundle; path = Library/Tapku/TapkuLibrary.bundle; sourceTree = SOURCE_ROOT; };
+		81A82EE313F0F61C00F2C48F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		81B1D1C013F2F9810034AF4A /* Icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_114.png; sourceTree = "<group>"; };
+		81B1D1C213F2F9810034AF4A /* Icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_57.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				8131D60413EFA1BD003024B8 /* QuartzCore.framework in Frameworks */,
+				81A82EE413F0F61C00F2C48F /* MapKit.framework in Frameworks */,
+				81C67A2A13F10E3500A012A9 /* libTapkuLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8131D63413EFA498003024B8 /* Model */,
+				8131D63313EFA498003024B8 /* Controller */,
+				8131D63513EFA498003024B8 /* View */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ArtFlow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				8131D5E213EFA08C003024B8 /* Library */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				8131D5E913EFA115003024B8 /* OtherSources */,
+				8131D60A13EFA255003024B8 /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81A82E7A13F0F4A300F2C48F /* TapkuLibrary.xcodeproj */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				8131D60313EFA1BD003024B8 /* QuartzCore.framework */,
+				81A82EE313F0F61C00F2C48F /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8112D82313F29C3B00F330F3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8112D86E13F29C5300F330F3 /* Paintings.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8131D5E213EFA08C003024B8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				818A6E0013F0411800F6100C /* UIImage-Categories */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		8131D5E913EFA115003024B8 /* OtherSources */ = {
+			isa = PBXGroup;
+			children = (
+				8131D5EA13EFA115003024B8 /* ArtFlow_Prefix.pch */,
+				8131D5EB13EFA115003024B8 /* main.m */,
+			);
+			path = OtherSources;
+			sourceTree = "<group>";
+		};
+		8131D60A13EFA255003024B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				81A82E9513F0F58900F2C48F /* TapkuLibrary.bundle */,
+				81B1D1BF13F2F9810034AF4A /* Icons */,
+				8112D82313F29C3B00F330F3 /* Data */,
+				818A6DD513F031E100F6100C /* Images */,
+				8131D60B13EFA255003024B8 /* ArtFlow-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8131D63313EFA498003024B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				818716CD13EFB44A006579FA /* ArtFlowViewController.h */,
+				818716CE13EFB44A006579FA /* ArtFlowViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8131D63413EFA498003024B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				818717AF13EFD5E0006579FA /* Painting.h */,
+				818717B013EFD5E0006579FA /* Painting.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8131D63513EFA498003024B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		818A6DD513F031E100F6100C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				810CECD413F2692D00559719 /* 0.png */,
+				810CECD513F2692D00559719 /* 1.png */,
+				810CECD613F2692D00559719 /* 2.png */,
+				810CECD713F2692D00559719 /* 3.png */,
+				810CECD813F2692D00559719 /* 4.png */,
+				810CECD913F2692D00559719 /* 5.png */,
+				810CECDA13F2692D00559719 /* 6.png */,
+				810CECDB13F2692D00559719 /* 7.png */,
+				810CECDC13F2692D00559719 /* 8.png */,
+				810CECDD13F2692D00559719 /* 9.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		818A6E0013F0411800F6100C /* UIImage-Categories */ = {
+			isa = PBXGroup;
+			children = (
+				818A6E0113F0411800F6100C /* UIImage+Alpha.h */,
+				818A6E0213F0411800F6100C /* UIImage+Alpha.m */,
+				818A6E0313F0411800F6100C /* UIImage+Resize.h */,
+				818A6E0413F0411800F6100C /* UIImage+Resize.m */,
+				818A6E0513F0411800F6100C /* UIImage+RoundedCorner.h */,
+				818A6E0613F0411800F6100C /* UIImage+RoundedCorner.m */,
+			);
+			path = "UIImage-Categories";
+			sourceTree = "<group>";
+		};
+		81B1D1BF13F2F9810034AF4A /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				81B1D1C013F2F9810034AF4A /* Icon_114.png */,
+				81B1D1C213F2F9810034AF4A /* Icon_57.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		81C679DC13F10CE100A012A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81C679E113F10CE100A012A9 /* libTapkuLibrary.a */,
+				81C679E313F10CE100A012A9 /* LogicTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ArtFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ArtFlow" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C67A1D13F10D7F00A012A9 /* PBXTargetDependency */,
+			);
+			name = ArtFlow;
+			productName = ArtFlow;
+			productReference = 1D6058910D05DD3D006BFB54 /* ArtFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ArtFlow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 81C679DC13F10CE100A012A9 /* Products */;
+					ProjectRef = 81A82E7A13F0F4A300F2C48F /* TapkuLibrary.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ArtFlow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		81C679E113F10CE100A012A9 /* libTapkuLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTapkuLibrary.a;
+			remoteRef = 81C679E013F10CE100A012A9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		81C679E313F10CE100A012A9 /* LogicTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LogicTests.octest;
+			remoteRef = 81C679E213F10CE100A012A9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A82E9613F0F58900F2C48F /* TapkuLibrary.bundle in Resources */,
+				810CECDE13F2692D00559719 /* 0.png in Resources */,
+				810CECDF13F2692D00559719 /* 1.png in Resources */,
+				810CECE013F2692D00559719 /* 2.png in Resources */,
+				810CECE113F2692D00559719 /* 3.png in Resources */,
+				810CECE213F2692D00559719 /* 4.png in Resources */,
+				810CECE313F2692D00559719 /* 5.png in Resources */,
+				810CECE413F2692D00559719 /* 6.png in Resources */,
+				810CECE513F2692D00559719 /* 7.png in Resources */,
+				810CECE613F2692D00559719 /* 8.png in Resources */,
+				810CECE713F2692D00559719 /* 9.png in Resources */,
+				8112D86F13F29C5300F330F3 /* Paintings.plist in Resources */,
+				81B1D1C413F2F9810034AF4A /* Icon_114.png in Resources */,
+				81B1D1C613F2F9810034AF4A /* Icon_57.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				8131D5EC13EFA115003024B8 /* main.m in Sources */,
+				818716CF13EFB44A006579FA /* ArtFlowViewController.m in Sources */,
+				818717B113EFD5E0006579FA /* Painting.m in Sources */,
+				818A6E0713F0411800F6100C /* UIImage+Alpha.m in Sources */,
+				818A6E0813F0411800F6100C /* UIImage+Resize.m in Sources */,
+				818A6E0913F0411800F6100C /* UIImage+RoundedCorner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81C67A1D13F10D7F00A012A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TapkuLibrary;
+			targetProxy = 81C67A1C13F10D7F00A012A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = Library/Tapku;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = ArtFlow;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				HEADER_SEARCH_PATHS = Library/Tapku;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = ArtFlow;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OtherSources/ArtFlow_Prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Resources/ArtFlow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OtherSources/ArtFlow_Prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Resources/ArtFlow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ArtFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ArtFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

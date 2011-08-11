@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ImageName</key>
+		<string>0.png</string>
+		<key>Title</key>
+		<string>Mona Lisa, 1503-1519</string>
+		<key>Artist</key>
+		<string>Leonardo da Vinci</string>
+	</dict>
+	<dict>
+		<key>ImageName</key>
+		<string>1.png</string>
+		<key>Title</key>
+		<string>The Starry Night, 1889</string>
+		<key>Artist</key>
+		<string>Vincent van Gogh</string>
+	</dict>
+	<dict>
+		<key>ImageName</key>
+		<string>2.png</string>
+		<key>Title</key>
+		<string>Het Meisje met de Parel, 1665</string>
+		<key>Artist</key>
+		<string>Johannes Vermeer</string>
+	</dict>        
+    <dict>
+		<key>ImageName</key>
+		<string>3.png</string>
+		<key>Title</key>
+		<string>The Scream, 1893</string>
+		<key>Artist</key>
+		<string>Edvard Munch</string>
+	</dict>                
+    <dict>
+		<key>ImageName</key>
+		<string>4.png</string>
+		<key>Title</key>
+		<string>Cafe Terrace at Night, 1888</string>
+		<key>Artist</key>
+		<string>Vincent van Gogh</string>
+	</dict>        
+    <dict>
+		<key>ImageName</key>
+		<string>5.png</string>
+		<key>Title</key>
+		<string>Flowers, 1722</string>
+		<key>Artist</key>
+		<string>Jan Van Huysum</string>
+	</dict>          
+    <dict>
+		<key>ImageName</key>
+		<string>6.png</string>
+		<key>Title</key>
+		<string>Monet's Garden at Argenteuil, 1873</string>
+		<key>Artist</key>
+		<string>Claude Monet</string>
+	</dict>             
+    <dict>
+		<key>ImageName</key>
+		<string>7.png</string>
+		<key>Title</key>
+		<string>Marie de Medici in Pont-de Ce, 1810</string>
+		<key>Artist</key>
+		<string>Theodore Gericault</string>
+	</dict>    
+    <dict>
+		<key>ImageName</key>
+		<string>8.png</string>
+		<key>Title</key>
+		<string>The Sea. Koktebel, 1853</string>
+		<key>Artist</key>
+		<string>Ivan Aivazovsky</string>
+	</dict>      
+    <dict>
+		<key>ImageName</key>
+		<string>9.png</string>
+		<key>Title</key>
+		<string>Autumn Landscape, 1885</string>
+		<key>Artist</key>
+		<string>Vincent van Gogh</string>
+	</dict>                   
+</array>
+</plist>
